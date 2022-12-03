@@ -32,7 +32,7 @@ let cart
 
 const environment = async() =>{
 
-    const connection = mongoose.connect('mongodb+srv://coderhouse:Mishina2000@coderhouse-cluster-ljrg.qaohzev.mongodb.net/CoderHouse-MongoDB?retryWrites=true&w=majority')
+    const connection = mongoose.connect('mongodb')
 
 
     try{
